@@ -1,16 +1,27 @@
 
 import React from 'react'
 import './App.css'
-import itle  from "./Title";
-import Title from './Title';
+
+import Title from './Title.jsx';
+import ProductTab from './ProductTab.jsx';
 
 
 const App = () => {
   return (
-    <div>
-      <Title/>
-
-    </div>
+    // REACT FRAGMENTATION
+  //  <>
+  //  <Title/>
+  //  <Title/>
+  //  <Title/>
+  //  </>
+  <div>
+     <Title/>
+     <Title/>
+    <Title/>
+    <ProductTab/>
+  </div>
+       
+   
   
   )
 }
