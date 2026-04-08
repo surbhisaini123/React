@@ -1,7 +1,6 @@
 
 import React from 'react'
 import './App.css'
-
 import Title from './Title.jsx';
 import ProductTab from './ProductTab.jsx';
 

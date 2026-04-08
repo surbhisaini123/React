@@ -15,16 +15,16 @@
 //----------PART2-------
 import React from 'react'
 import "./Product.css"
-const product = ({title,price,feature,feature2}) => {
+const Product = ({title,price,feature,feature2}) => {
   
   return (
     <div className="box">
        <h1>{title}</h1>
        <h5>price: {price}</h5>
        <p>{feature}</p>
-       <p>{feature2.a}</p>
+       {/* <p>{feature2.a}</p> */}
     </div>
   )
 }
 
-export default product
+export default Product
