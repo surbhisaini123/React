@@ -33,4 +33,4 @@ let option2={a:"cute",b:"preety",c:"beautyfull"}
 }
 
 export default ProductTab
-
+// nb
