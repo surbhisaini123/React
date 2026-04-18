@@ -1,9 +1,9 @@
 
 import React from 'react'
 import './App.css'
-import Title from './Title.jsx';
-import ProductTab from './ProductTab.jsx';
-import Activity from './Activity.jsx'
+//import Title from './Title.jsx';
+//import ProductTab from './ProductTab.jsx';
+//import Activity from './Activity.jsx'
 
 
 const App = () => {
@@ -15,12 +15,9 @@ const App = () => {
   //  <Title/>
   //  </>
   <div>
-    <Activity userName="surbhi" textColor="pink"/>
+    {/* <Activity userName="surbhi" textColor="pink"/> */}
 
-     <Title/>
-     <Title/>
-    <Title/>
-    <ProductTab/>
+     
     
   </div>
        
