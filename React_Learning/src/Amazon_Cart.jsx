@@ -1,9 +1,13 @@
 
-
-const Amazon_Cart = () => {
+import './Cart.css';
+const Amazon_Cart = ({title,description}) => {
   return (
-    <div >
-        <p>hiii</p>
+    <div className="box">
+        <h4>{title}</h4>
+        <ul>
+          {description}
+        </ul>
+
 
     </div>
   )
