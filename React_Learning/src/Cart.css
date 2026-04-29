@@ -1,8 +1,11 @@
-div.box{
+.box{
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     border: 1px solid ;
     border-radius: 20px;
+    margin: 15 px;
+   padding: 15 px;
+
     
    
 }
