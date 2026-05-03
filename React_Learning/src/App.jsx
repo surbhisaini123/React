@@ -18,7 +18,7 @@ const App = () => {
   //  </>
   <div>
     {/* <Activity userName="surbhi" textColor="pink"/> */}
-
+    <h3>Blockbuster Deals | Shop Now</h3>
      <Amazon/>
     
   </div>
