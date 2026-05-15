@@ -4,7 +4,7 @@ import './Cart.css';
 import Amazone_Price from './Amazone_Price';
 const Amazon_Cart = ({title,description,idx}) => {
   let oldPrice=["12000","13000","14000","15000"]
-  let newPrice=["1400","1500","1600","1700"]
+  let newPrice=["11000","12000","13000","14000"]
   return (
 
        <div className="box">
