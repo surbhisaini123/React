@@ -17,7 +17,7 @@ const Amazon = () => {
   }
   return (
     <div style={styles}>
-    
+      
         <Amazon_Cart title="Logitech MX Master 35" description={details_produt1} idx={0}/>
         <Amazon_Cart  title="Apple Pencil(2nd Gen)" description={details_produt2} idx={1}/>
         <Amazon_Cart title="Zebronics" description={details_produt3} idx={2} />
