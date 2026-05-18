@@ -45,4 +45,3 @@ const Event = () => {
 }
 
 export default Event
-jhg
