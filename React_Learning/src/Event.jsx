@@ -47,20 +47,42 @@
 // export default Event
 
 
-import React from 'react'
-function handlerFormSubmit(event){
-  event.preventDefault()
-  console.log("form submit");
+// import React from 'react'
+// function handlerFormSubmit(event){
+//   event.preventDefault()
+//   console.log("form submit");
   
 
-}
+// }
+// const Event = () => {
+//   return (
+//     <div>
+//       <form >
+//         <input placeholder="text"/>
+//         <button onClick={handlerFormSubmit}>submit</button>
+//       </form>
+//     </div>
+//   )
+// }
+
+// export default Event
+
+
+//<<<<<<<<<<<<-----USESTATE-------->>>>>>>
+import { useState } from 'react';
+import React from 'react'
+
 const Event = () => {
+    let [count,setCount]=useState(0)
+    const incCount=()=>{
+      setCount(count+1)
+      console.log(count);
+      
+    }
   return (
     <div>
-      <form >
-        <input placeholder="text"/>
-        <button onClick={handlerFormSubmit}>submit</button>
-      </form>
+      <h3> count={count}</h3>
+      <button onClick={incCount}>increase count</button>
     </div>
   )
 }
