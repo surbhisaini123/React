@@ -32,10 +32,12 @@
 
 import React from 'react'
 import Event from './Event.jsx'
+import Like_Button from './Like_Button.jsx'
 const App = () => {
   return (
     <div>
-      <Event/>
+      {/* <Event/> */}
+      <Like_Button/>
     </div>
   )
 }
