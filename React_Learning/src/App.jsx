@@ -33,11 +33,13 @@
 import React from 'react'
 import Event from './Event.jsx'
 import Like_Button from './Like_Button.jsx'
+import LudoBoard from './LudoBoard.jsx'
 const App = () => {
   return (
     <div>
       {/* <Event/> */}
-      <Like_Button/>
+      {/* <Like_Button/> */}
+      <LudoBoard/>
     </div>
   )
 }
