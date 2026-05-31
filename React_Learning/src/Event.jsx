@@ -74,7 +74,7 @@ import React from 'react'
 
 const Event = () => {
     let [count,setCount]=useState(0)
-    console.log("heloooo byyyyy");
+    console.log("");
     
     const incCount=()=>{
       setCount(count+1)
