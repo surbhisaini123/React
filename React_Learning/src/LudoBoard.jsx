@@ -32,7 +32,7 @@ import { useState } from "react";
 
 // export default LudoBoard
 
-
+// <<<<<<<<<<<<-------ARRAY AND STATE---------->>>>
 import React from 'react'
 
 const LudoBoard = () => {
