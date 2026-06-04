@@ -26,4 +26,3 @@ const Lottery = () => {
 }
 
 export default Lottery
-aqs
