@@ -36,6 +36,7 @@ import Like_Button from './Like_Button.jsx'
 import LudoBoard from './LudoBoard.jsx'
 import Todo_List from './Todo_List.jsx'
 import Lottery from './Lottery.jsx'
+import LO_TicketNO from './LO_TicketN0.jsx'
 const App = () => {
   return (
     <div>
@@ -43,7 +44,8 @@ const App = () => {
       {/* <Like_Button/> */}
       {/* <LudoBoard/> */}
       {/* <Todo_List/> */}
-      <Lottery/>
+      {/* <Lottery/> */}
+      <LO_TicketNO num={5} />
     </div>
   )
 }
