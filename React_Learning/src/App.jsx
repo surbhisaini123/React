@@ -39,7 +39,7 @@ import Lottery from './Lottery.jsx'
 import Form from './Form.jsx'
 import Comment_Form from './Comment_Form.jsx'
 import Counter from './Counter.jsx'
-
+import Joker from './Joker.jsx'
 const App = () => {
   return (
     <div>
@@ -52,7 +52,8 @@ const App = () => {
        <LO_Ticket ticket={[0,4,9,3,2]} /> */}
       {/* <Form/> */}
       {/* <Comment_Form/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Joker/>
     </div>
   )
 }
