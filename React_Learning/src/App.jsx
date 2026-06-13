@@ -37,6 +37,8 @@ import LudoBoard from './LudoBoard.jsx'
 import Todo_List from './Todo_List.jsx'
 import Lottery from './Lottery.jsx'
 import Form from './Form.jsx'
+import Comment_Form from './Comment_Form.jsx'
+
 
 const App = () => {
   return (
@@ -48,7 +50,8 @@ const App = () => {
       {/* <Lottery n={3} winningSum={15}/> */}
       {/* <LO_Ticket ticket={[0,7,8]} />
        <LO_Ticket ticket={[0,4,9,3,2]} /> */}
-      <Form/>
+      {/* <Form/> */}
+      <Comment_Form/>
     </div>
   )
 }
