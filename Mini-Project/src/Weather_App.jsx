@@ -7,10 +7,10 @@ const Weather_App = () => {
     <div className='Bg'>
         <div >
              <SearchBox/>
-
+{/* <img src={BackGroundIMG} className='BG_IMG' /> */}
         </div>
-      {/* <img src={BackGroundIMG}/> */}
-     
+      
+      
 
     </div>
   )
