@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 import  MaterialUI from "./MaterialUI";
-import WeatherApp from './Weather_App'
-import BackGroundIMG from './assets/backgroundImage.jpg'
+import WeatherApp from './WeatherApp';
+
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <div className='BG_IMG' >
-      <WeatherApp/>
+    <div >
+    <WeatherApp/>
        {/* <MaterialUI/> */}
 
     </div>
