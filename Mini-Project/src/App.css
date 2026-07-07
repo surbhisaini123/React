@@ -1,4 +1,5 @@
-/* .BG_IMG{
-  /* width: 100%;
-  background-image: url('./assets/backgroundImage.jpg'); */
-/* }  */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
