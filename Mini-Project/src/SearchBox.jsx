@@ -20,6 +20,7 @@ const SearchBox = () => {
       tempMini: jsonResponse.main.temp_min,
       tempMax: jsonResponse.main.temp_max,
       humidity: jsonResponse.main.humidity,
+      pressure:jsonResponse.main.pressure,
      }
      console.log(result);
      
