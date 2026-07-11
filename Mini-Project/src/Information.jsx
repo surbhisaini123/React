@@ -1,10 +1,18 @@
 import React from 'react'
 import './Info.css'
 const Information = () => {
+  let info={
+    city:"Jabalpur",
+    temp:25.73,
+    temMax:25.73,
+    temMini:25.73,
+    humidity:87
+  }
   return (
+  
     <div>
       <div className='info-box'>
-        <div><p>city name</p></div>
+        <div><h1>{info.city}</h1></div>
          
         <div className='inner-info'>
           <div>1</div>
